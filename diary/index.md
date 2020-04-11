@@ -2,7 +2,7 @@
 
 - `yy`: the last two digits of year (e.g., `20`)
 - `mm`: month (e.g., `04`)
-- `dd`: day (e.g., `01')
+- `dd`: day (e.g., `01`)
 
 ### What I did today
 
