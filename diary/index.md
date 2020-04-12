@@ -1,4 +1,6 @@
-## yymmdd
+## TIL
+
+### yymmdd
 
 - `yy`: the last two digits of year (e.g., `20`)
 - `mm`: month (e.g., `04`)
