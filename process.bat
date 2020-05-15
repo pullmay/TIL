@@ -2,7 +2,7 @@
 cd /d %~dp0
 
 rem implement python
-python add.py %0
+python add.py %1
 
 rem git
 git add .
