@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# usage: sudo ./process.command 200605
+
 cd `dirname $0`
 
 python3 add.py $1
