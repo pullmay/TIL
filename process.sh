@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# usage: sudo ./process.command 200605
+# usage: sudo ./process.sh 200605
 
 cd `dirname $0`
 
@@ -10,4 +10,4 @@ git add .
 git commit -m "."
 git push -u origin master
 
-exit
+exit 0
