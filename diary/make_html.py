@@ -8,8 +8,9 @@ def make_file():
         
     # ファイルが存在しない場合のみ書き込みする
     today = datetime.today()
-    d_today = datetime.strftime(today, '%y%m%d')
-    new_file = d_today + '.html'
+    d_file = datetime.strftime(today, '%y%m%d')
+    d_today = datetime.strftime(today, '%Y/%m/%d')
+    new_file = d_file + '.html'
 
     try:
         with open(new_file, mode='x') as f:
