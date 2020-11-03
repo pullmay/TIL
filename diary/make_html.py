@@ -21,7 +21,7 @@ def make_file():
             one_month_ago = today - relativedelta(months=1)
             one_month_after = today + relativedelta(months=1)
             # 6桁
-            d_today = datetime.strftime(today, '%y%m%d')
+            d_today = datetime.strftime(today, '%Y/%m/%d')
             d_yesterday = datetime.strftime(yesterday, '%y%m%d')
             d_tomorrow = datetime.strftime(tomorrow, '%y%m%d')
             d_one_month_ago = datetime.strftime(one_month_ago, '%y%m%d')
